@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/motorola/rhodep
+DEVICE_PATH := device/motorola/rhodei
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := holi
@@ -67,7 +67,7 @@ BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 \
 			service_locator.enable=1 \
 			loop.max_part=7 \
 			androidboot.hab.csv=2 \
-			androidboot.hab.product=rhodep \
+			androidboot.hab.product=rhodei \
 			androidboot.hab.cid=50
 			firmware_class.path=/vendor/firmware_mnt/image
 # For the love of all that is holy, please do not include this in your ROM unless you really want TWRP to not work correctly!
@@ -88,8 +88,8 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 
 #BOARD_KERNEL_SEPARATED_DTBO := true
 #BOARD_INCLUDE_RECOVERY_DTBO := true
-#TARGET_KERNEL_SOURCE := kernel/motorola/rhodep
-#TARGET_KERNEL_CONFIG := vendor/rhodep_defconfig
+#TARGET_KERNEL_SOURCE := kernel/motorola/rhodei
+#TARGET_KERNEL_CONFIG := vendor/rhodei_defconfig
 
 BOARD_KERNEL_IMAGE_NAME := kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/$(BOARD_KERNEL_IMAGE_NAME)
@@ -116,7 +116,7 @@ BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 116681322496
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := rhodep
+TARGET_OTA_ASSERT_DEVICE := rhodei
 
 # Dynamic Partition && Super
 BOARD_SUPER_PARTITION_SIZE := 8613003264
@@ -242,8 +242,8 @@ TW_LOAD_VENDOR_MODULES := "adapter_class.ko \
             bq2597x_mmi_iio.ko \
             cw2217b_fg_mmi.ko \
             exfat.ko \
-            goodix_brl_mmi.ko \
-            ldo_vibrator_mmi.ko \
+            nova_0flash_mmi.ko \
+            touchscreen_mmi.ko \
             mmi_annotate.ko \
             mmi_charger.ko \
             mmi_discrete_charger_class.ko \

@@ -1,4 +1,4 @@
-# TWRP Device configuration for Motorola Moto G82 5G
+# TWRP Device configuration for Motorola Moto G62 5G
 
 ## Device specification
 
@@ -18,10 +18,10 @@ Rear Camera 2 | 8 MP, f/2.2, 118˚ (ultrawide), 1/4.0", 1.12µm
 Rear Camera 3 | 2 MP, f/2.4, (macro)
 Front Camera | 16 MP, f/2.2, (wide), 1.0µm
 
-![Device Picture](https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g82.jpg)
+![Device Picture](https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g62.jpg)
 
 ### Kernel Source
-From Stock ROM RHODEP_RETAIL_13_T1SUS33.1-124-6-8-1
+From Stock ROM rhodei_RETAIL_13_T1SUS33.1-124-6-8-1
 
 ### What's working!? :D
 - Touch (it should works on both displays)

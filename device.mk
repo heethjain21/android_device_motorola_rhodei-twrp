@@ -31,7 +31,7 @@ PRODUCT_PLATFORM := holi
 # A/B support
 AB_OTA_UPDATER := true
 
-LOCAL_PATH := device/motorola/rhodep
+LOCAL_PATH := device/motorola/rhodei
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -120,5 +120,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/sm5602_fg_mmi.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/sm5602_fg_mmi.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/tcpc_class.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/tcpc_class.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/tcpc_sgm7220.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/tcpc_sgm7220.ko \
-    $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/ldo_vibrator_mmi.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/ldo_vibrator_mmi.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/utags.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/utags.ko
